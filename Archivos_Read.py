@@ -1,0 +1,6 @@
+archivo = open("C:/Users/Luz Angela Melo/OneDrive - Universidad Piloto de Colombia/Documents/MinTic/Ciclo 1 Python/Semana 7/inbox.txt")
+inp = archivo.read()
+print(len(inp))
+otro = archivo.read()
+print(len(otro))
+print(inp[10:200])
